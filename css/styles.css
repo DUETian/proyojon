@@ -1,0 +1,134 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #146F28;
+}
+#title{
+  padding-left: 10px;
+}
+.header_image{
+  width: 100%;
+  padding-top: 10px;
+}
+.login_image{
+  width: 64%;
+  padding-top: 10px;
+}
+.navbar{
+  padding:5px 20px 5px 20px;
+  position: relative;
+  background-color: #ed1290;
+}
+.navbar-nav{
+  text-align: center;
+}
+.nav-item{
+  margin: 0 25px;
+  color: white;
+  text-align: center;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: 'Montserrat-Light', sans-serif;
+}
+.news{
+  font-family: 'Kalpurush';
+  src: url(fonts/kalpurushANSI.ttf);
+  background-color: Black;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  margin: 5px 0 5px 0;
+}
+
+.job{
+  font-family: 'Kalpurush';
+  src: url(fonts/kalpurushANSI.ttf);
+}
+/* Carousel SECTION */
+
+.b-0 {
+    bottom: 0;
+}
+
+.top-indicator {
+    right: 0;
+    top: 1rem;
+    bottom: inherit;
+    left: inherit;
+    margin-right: 1rem;
+}
+.overflow {
+    position: relative;
+    overflow: hidden;
+}
+.zoom img {
+    transition: all 0.2s linear;
+}
+.zoom:hover img {
+    transform: scale(1.1);
+}
+
+/* Carousel Section end */
+
+.img-carousel{
+  width: 100%;
+}
+.news-carousel{
+  background-color: Black;
+  font-size: 8px;
+  font-weight: 800;
+  color: black;
+  font-family: sans-serif;
+  margin: 5px 0 5px 0;
+}
+.pemc{
+  font-family: 'Kalpurush';
+  src: url(fonts/kalpurushANSI.ttf);
+  background-color: black;
+  color: white;
+}
+.pemc-des{
+  font-family: 'Kalpurush';
+  src: url(fonts/kalpurushANSI.ttf);
+ font-size: 22px;
+ text-align: left;
+ line-height: 2.5rem;
+  color: white;
+}
+/* bottom carousel css */
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+}
+#footer{
+  font-family: 'Kalpurush';
+  src: url(fonts/kalpurushANSI.ttf);
+  padding: 7% 15%;
+  text-align: left;
+  color: white;
+  background-color: #ed1290;
+}
+#Copyright{
+  padding: 1% 5%;
+  text-align: center;
+  color: white;
+  background-color: gray;
+}
+.mhsofts{
+  color: yellow;
+}
+@media (max-width:1024px) {
+
+}
